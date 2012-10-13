@@ -22,5 +22,6 @@ ipch/
 *.opensdf
 
 # Weird stuff
+*.log
 *.zip
 .DS_Store
