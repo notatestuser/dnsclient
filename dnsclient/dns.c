@@ -324,28 +324,20 @@ char *dns_get_type_name(unsigned short type)
 	{
 	case DNS_TYPE_A:
 		return "A";
-		break;
 	case DNS_TYPE_CNAME:
 		return "CNAME";
-		break;
 	case DNS_TYPE_MX:
 		return "MX";
-		break;
 	case DNS_TYPE_NS:
 		return "NS";
-		break;
 	case DNS_TYPE_PTR:
 		return "PTR";
-		break;
 	case DNS_TYPE_SOA:
 		return "SOA";
-		break;
 	case DNS_TYPE_TXT:
 		return "TXT";
-		break;
 	case DNS_TYPE_AAAA:
 		return "AAAA";
-		break;
 	default:
 		return "???";
 	}
@@ -357,7 +349,6 @@ char *dns_get_class_name(unsigned short class)
 	{
 	case DNS_CLASS_IN:
 		return "IN";
-		break;
 	default:
 		return "???";
 	}
