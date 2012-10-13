@@ -10,3 +10,17 @@
 *.lai
 *.la
 *.a
+
+# Visual Studio exclusions
+*.suo
+*.user
+*.ncb
+Debug/
+Release/
+ipch/
+*.sdf
+*.opensdf
+
+# Weird stuff
+*.zip
+.DS_Store
