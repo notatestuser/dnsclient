@@ -12,8 +12,8 @@
 #define DNS_PORT			53
 #define DNS_IDENTIFIER		0xbeef
 
-char *DNS_DEFAULT_LOOKUP = "www.lancs.ac.uk";
-char *DNS_LOOKUP_SERVER  = "148.88.8.4";
+char *DNS_DEFAULT_LOOKUP = "www.foo.com";
+char *DNS_LOOKUP_SERVER  = "8.8.8.8";
 
 int main(int argc, char *argv[])
 {
